@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,18 +9,29 @@
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <MultiAutoCompleteTextView
-        android:id="@+id/mactv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/lang"
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="109dp"
+        android:layout_height="129dp"
+        android:background="@drawable/outline_favorite_24"
         android:text=""
-        android:textAlignment="center"
-        android:textSize="25sp" />
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="491dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button" />
-</LinearLayout>
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_baseline_remove_red_eye_24"
+        android:text=""
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="107dp"
+        android:layout_height="92dp"
+        android:background="@drawable/outline_favorite_black_18"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="83dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
