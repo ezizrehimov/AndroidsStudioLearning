@@ -4,17 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
 
-    <AutoCompleteTextView
-        android:id="@+id/actv"
+    <MultiAutoCompleteTextView
+        android:id="@+id/mactv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:hint="@string/ad"
+        android:hint="@string/lang"
         android:text=""
-        android:textColor="@color/teal_200"
-        android:textSize="30sp" />
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button" />
 </LinearLayout>

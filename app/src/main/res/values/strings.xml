@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Dersler</string>
-    <string name="ad">Seher adi yaz</string>
+    <string name="button">Secilemleri goster</string>
+    <string name="lang">Birden cox dil sec</string>
 </resources>
