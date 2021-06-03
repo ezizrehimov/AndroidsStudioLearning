@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Dersler</string>
-    <string name="button">Secilemleri goster</string>
-    <string name="lang">Birden cox dil sec</string>
+<string name="secildi">Secildi</string>
+<string name="secilmedi">Secilmedi</string>
+<string name="ctvname">CheckedTextView</string>
 </resources>
