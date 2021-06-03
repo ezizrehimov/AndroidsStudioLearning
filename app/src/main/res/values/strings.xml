@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Dersler</string>
-    <string name="username">Istifadeci adinizi daxil edin.</string>
-    <string name="helperText">Meselen: Aziz</string>
-    <string name="password">Parolunuzu daxil edin.</string>
-    <string name="helperText2">Meselen: akulanedeten :D</string>
+    <string name="btnName">Aciqlama elave et</string>
+    <string name="mesaj">Bu dinamik buttondur.</string>
+    <string name="text">Aciqlama elave et./</string>
 </resources>
