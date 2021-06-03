@@ -6,16 +6,66 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="20dp"
+    android:padding="30dp"
     tools:context=".MainActivity">
 
-    <CheckedTextView
-        android:id="@+id/ctv"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:checkMarkTint="@color/teal_200"
-        android:checkMarkTintMode="screen"
-        android:text="@string/ctvname"
-        android:textAlignment="center"
-        android:textSize="25sp" />
+        android:background="@drawable/textinput_background"
+        android:textColorHint="@color/purple_500"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        app:counterOverflowTextColor="@color/orange"
+        app:counterTextColor="@color/purple_200"
+        app:errorEnabled="true"
+        app:helperText="@string/helperText"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:hintTextColor="@color/purple_700">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textinput_background"
+        android:textColorHint="@color/purple_500"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:counterOverflowTextColor="@color/orange"
+        app:counterTextColor="@color/purple_200"
+        app:errorEnabled="true"
+        app:helperText="@string/helperText2"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:hintTextColor="@color/purple_700"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Daxil ol" />
+
 </LinearLayout>

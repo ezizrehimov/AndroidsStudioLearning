@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Dersler</string>
-<string name="secildi">Secildi</string>
-<string name="secilmedi">Secilmedi</string>
-<string name="ctvname">CheckedTextView</string>
+    <string name="username">Istifadeci adinizi daxil edin.</string>
+    <string name="helperText">Meselen: Aziz</string>
+    <string name="password">Parolunuzu daxil edin.</string>
+    <string name="helperText2">Meselen: akulanedeten :D</string>
 </resources>
