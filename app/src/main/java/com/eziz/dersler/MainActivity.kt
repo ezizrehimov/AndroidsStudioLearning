@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        switch1.setOnCheckedChangeListener { buttonView, isChecked ->
+        toggleButton.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked)
                 imageView.setImageResource(R.drawable.turnon)
             else
