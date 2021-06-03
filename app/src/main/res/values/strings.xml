@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">Dersler</string>
-    <string name="btnName">Aciqlama elave et</string>
-    <string name="mesaj">Bu dinamik buttondur.</string>
-    <string name="text">Aciqlama elave et./</string>
 </resources>
