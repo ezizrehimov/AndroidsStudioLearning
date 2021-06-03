@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="seherler">
+        <item>Baku</item>
+        <item>Naxcivan</item>
+        <item>Susa</item>
+        <item>Qarabag</item>
+        <item>Agsu</item>
+        <item>Samaxi</item>
+        <item>Suqmayit</item>
+        <item>Lenkeran</item>
+        <item>Masalli</item>
+    </string-array>
+</resources>
